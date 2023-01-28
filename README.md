@@ -1,22 +1,24 @@
-# Day-9
+# Day-16
 
 Write a program that takes a string of numbers as input and prints the `biggest odd number` in the list.  
 For example, if you pass `23569` as an argument, your program should print `9`.   
-
+Write a function called **sum_list** with one parameter that takes a **nested list** of integers as an argument and returns the sum of the integers. 
+For example, if you pass **[[2, 4, 5, 6], [2, 3, 5, 6]]**
+as an argument your function should return a sum of **33**.
 &nbsp;
 &nbsp;
 
 **Tests** | **1** | **2** | **3**
 --- | --- | --- | --- 
-**Input:** | `84748` | `395409` | `395409` 
-**Output:** | `7` | `9` | `3` 
+**Input:** | `[[1, 2, 3], [4, 5, 6], [7, 8, 9]]` | `[[1, 2, 3, 4, 5], [6, 7, 8, 9, 10], [11, 12, 13, 14, 15]]` | `[[1, 2, 3, 4, 5, 6], [7, 8, 9, 10, 11, 12], [13, 14, 15, 16, 17, 18]]` 
+**Output:** | `45` | `120` | `171` 
 **Validity** | :white_check_mark: | :white_check_mark: | :x: 
 
 &nbsp;
 
 ## Concepts Involved
-Modulus operator `%` and  
-List comprehension.  
+List comprehension 
+Recursion  
 
 &nbsp;
 &nbsp;
@@ -36,10 +38,10 @@ You can always change your code before the `Deadline`:hourglass:. So don't be di
 &nbsp;
 
 <details>
-<summary>:bulb:Hint</summary>
+<summary>:buld:Hint</summary>
 <br>
 https://www.w3schools.com/python/python_lists_comprehension.asp<br>
-https://www.geeksforgeeks.org/what-is-a-modulo-operator-in-python/<br>
+https://www.geeksforgeeks.org/python-program-to-find-sum-of-elements-in-a-list/<br>
 </details>
 
 ## :tada:Happy Coding:tada:
