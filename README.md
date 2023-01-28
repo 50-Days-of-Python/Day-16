@@ -10,14 +10,14 @@ as an argument your function should return a sum of **33**.
 
 **Tests** | **1** | **2** | **3**
 --- | --- | --- | --- 
-**Input:** | `[[1, 2, 3], [4, 5, 6], [7, 8, 9]]` | `[[1, 2, 3, 4, 5], [6, 7, 8, 9, 10], [11, 12, 13, 14, 15]]` | `[[1, 2, 3, 4, 5, 6], [7, 8, 9, 10, 11, 12], [13, 14, 15, 16, 17, 18]]` 
-**Output:** | `45` | `120` | `171` 
+**Input:** | `[[1, 2, 3], [4, 5, 6], [7, 8, 9]]` | `[[1, 2, 3, 4, 5], [6, 7, 8, 9, 10], [11, 12, 13, 14, 15]]` | `[[1, 2, 3, ], [ 10, 11, 12], [13, 14, 15, 16, 17, 18]]` 
+**Output:** | `45` | `120` | `95` 
 **Validity** | :white_check_mark: | :white_check_mark: | :x: 
 
 &nbsp;
 
 ## Concepts Involved
-List comprehension 
+List comprehension <br>
 Recursion  
 
 &nbsp;
